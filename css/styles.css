@@ -1,0 +1,100 @@
+/* Element selectors  */
+body {
+  line-height: 2;
+  text-align: center;
+}
+
+p {
+  color: #888888;
+}
+
+/* Background Colors */
+.colored-section {
+  background-color: black;
+  color: white;
+  padding: 120px 100px;
+}
+
+.white-section {
+  background-color: white;
+  padding: 120px 100px;
+}
+
+/* Title section */
+.title-image {
+  padding: 20px 0;
+  width: 52%;
+}
+
+.title-heading {
+  color: white;
+  padding-top: 35%;
+}
+
+@media (max-width: 900px) {
+
+  .title-heading {
+    padding-top: 5%;
+  }
+
+}
+
+/* Skills section */
+.skill-icon {
+  font-size: 100px;
+  padding-bottom: 20px;
+}
+
+/* Carousel  */
+
+.carousel-item {
+  width:30%;
+  margin:5% 35%;
+}
+
+@media (max-width:900px)  {
+
+  .carousel-item {
+    width:50%;
+    margin:3% 25%;
+  }
+
+}
+
+/* Colabs */
+.cotton-fest-logo {
+  border-radius: 50%;
+  margin-top: 100px;
+  width: 50%;
+}
+
+.converse-logo {
+  border-radius: 50%;
+  margin-top: 100px;
+  width: 53%;
+}
+
+@media (min-width:900px) {
+  .converse-logo {
+    width: 57%;
+  }
+}
+
+/* Get in touch  */
+.button-contact {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.button-contact:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Footer  */
+.footer-icon {
+  color: #393e46;
+  padding: 50px 20px;
+}
